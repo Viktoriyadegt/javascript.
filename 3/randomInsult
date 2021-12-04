@@ -1,0 +1,10 @@
+var randomBodyParts = ["нос", "глаз", "губы"]; 
+undefined
+var randomAdjectives = ["косая", "мелкий", "бледный"];
+undefined
+var randomWords = ["черепаха", "дракон", "мышь", "кактус", "лис"];
+randomBodyPart = randomBodyParts[Math.floor(Math.random() * randomBodyParts.length)];
+randomAdjectiv = randomAdjectives[Math.floor(Math.random() * randomAdjectives.length)];
+randomWord = randomWords[Math.floor(Math.random () * randomWords.length)];
+randomInsult = "У тебя " + randomBodyPart + " словно " + randomAdjectiv + " " + randomWord + "!!!";
+'У тебя нос словно косая черепаха!!!'
