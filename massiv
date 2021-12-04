@@ -1,0 +1,8 @@
+massiv = [3, 2, 1];
+(3) [3, 2, 1]
+var result = [massiv[0], "больше чем", massiv[1], "чем", massiv[2]].join(" ");
+undefined
+var result = [massiv[0], "больше, чем", massiv[1], ", чем", massiv[2]].join(" ");
+undefined
+result
+'3 больше, чем 2 , чем 1'
